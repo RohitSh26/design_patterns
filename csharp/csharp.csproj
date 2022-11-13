@@ -5,6 +5,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>design_pattern.csharp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="interfaces\" />
+    <None Remove="AdapterPattern\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="interfaces\" />
+    <Folder Include="AdapterPattern\" />
+  </ItemGroup>
 </Project>
